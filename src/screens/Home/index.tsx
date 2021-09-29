@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { CompactCard } from '../../components';
-import { Container, TopHeadline, Subtitle, Header, SearchInput, SectionList, SectionTitle } from './styles';
+import { CompactCard, SearchInput } from '../../components';
+import { Container, TopHeadline, Subtitle, Header,  SectionList, SectionTitle } from './styles';
 import { MotiView } from 'moti'
 
 const Home = () => {
@@ -40,6 +40,9 @@ const Home = () => {
                 <SectionTitle>Trending Now</SectionTitle>
                 <SectionList horizontal>
                     <CompactCard source='https://c.saavncdn.com/987/BIBA-English-2019-20190201201359-500x500.jpg' title='Test' subtitle='test' />
+                    <CompactCard source='https://c.saavncdn.com/987/BIBA-English-2019-20190201201359-500x500.jpg' title='Test' subtitle='test' />
+                    <CompactCard source='https://c.saavncdn.com/987/BIBA-English-2019-20190201201359-500x500.jpg' title='Test' subtitle='test' />
+                
                 </SectionList>
             </MotiView>
         </Container>

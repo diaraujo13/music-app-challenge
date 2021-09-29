@@ -25,14 +25,6 @@ export const Subtitle = styled.Text`
     letter-spacing: 3px;
 `
 
-export const SearchInput = styled.TextInput`
-    margin: 25px 0px;
-    color: #a5a5a5;
-    background-color: ${({theme}: StyledProps) => theme.colors.input.background};
-    elevation: ${({theme}: StyledProps) => theme.measurements.input.elevation};
-    padding: ${({theme}: StyledProps) => theme.measurements.input.padding};
-    border-radius: ${({theme}: StyledProps) => theme.measurements.borderRadius};
-`
 
 export const SectionTitle = styled.Text`
     font-size: ${({theme}: StyledProps) => theme.fontsize.medium};

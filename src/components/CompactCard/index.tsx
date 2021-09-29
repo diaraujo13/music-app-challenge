@@ -16,7 +16,7 @@ const Content = styled.TouchableOpacity`
     flex: 1;
     align-items: center;
     height: 200px;
-    width: ${width/3 + 30}px;
+    width: ${width/3 + 20}px;
     margin: 20px 20px 20px 0px;
     padding: 10px;
     overflow: hidden;
@@ -39,10 +39,9 @@ const SubTitle = styled.Text`
 const Image = styled.Image`
     min-height: 120px;
     flex-grow: 1;
-    width: ${width/3 + 30}px;
+    width: ${width/3 + 20}px;
     resize-mode: cover;
     border-radius: ${({theme}: StyledProps) => theme.measurements.borderRadius};
-
 `
 
 const CompactCard = ({
