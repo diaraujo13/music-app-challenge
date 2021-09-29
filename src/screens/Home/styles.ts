@@ -32,5 +32,14 @@ export const SearchInput = styled.TextInput`
     elevation: ${({theme}: StyledProps) => theme.measurements.input.elevation};
     padding: ${({theme}: StyledProps) => theme.measurements.input.padding};
     border-radius: ${({theme}: StyledProps) => theme.measurements.borderRadius};
+`
+
+export const SectionTitle = styled.Text`
+    font-size: ${({theme}: StyledProps) => theme.fontsize.medium};
+    color: ${({theme}: StyledProps) => theme.colors.primary};
+    font-weight: bold;
+    letter-spacing: 0px;    
+`
+export const SectionList = styled.ScrollView`
 
 `
